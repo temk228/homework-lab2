@@ -9,25 +9,27 @@
 4)Вывод результата<br>
 5)Конец<br>
 <h2>Диаграма</h2>
-<img width="98" height="301" alt="image" src="https://github.com/user-attachments/assets/e2c79a8a-d249-4794-9473-4581bcecc894" />
+<img width="98" height="301" alt="image" src="" />
 <h2>Реализация программы</h2>
 #include <stdio.h><br>
 #include <locale.h><br>
-int main() 
-{
-    setlocale(LC_CTYPE, ".UTF-8");
-    double x = 200.0;
-    double l = 80.0;
-    double v = (10.0 * l)/x;
-    printf("исходные данные:\n");
-    printf("время X: %.1f мс\n",x);
-    printf("длина шага L: %.1f см\n\n", l);
-    printf("минимальная скорость передвижения: %.2f м/с\n", v);
-    return 0;
-}
+int main()<br>
+{<br>
+    setlocale(LC_CTYPE, ".UTF-8");<br>
+    double x = 200.0;<br>
+    double l = 80.0;<br>
+    double v = (10.0 * l)/x;<br>
+    printf("исходные данные:\n");<br>
+    printf("время X: %.1f мс\n",x);<br>
+    printf("длина шага L: %.1f см\n\n", l);<br>
+    printf("минимальная скорость передвижения: %.2f м/с\n", v);<br>
+    return 0;<br>
+}<br>
 <h2>Результат работы программы</h2>
 исходные данные:<br>
 время X: 200.0 мс<br>
+    
+минимальная скорость передвижения: 4.00 м/с<br>
 длина шага L: 80.0 см<br>
 <h2>Информация о разработчике</h2>
 Медведкин Артем бТИИ-262<br>
