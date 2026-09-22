@@ -5,25 +5,28 @@
 <h2>Алгооритм и блок схема</h2>
 1)Начало<br>
 2)Ввод переменных L и X<br>
+ㅤㅤL - расстояние одного шага<br>
+ㅤㅤX - Время в течение которого поверхностное натяжение воды способно выдержать вес человека<br>
 3)Процесс решения по формуле<br>
+ㅤㅤРасчет по формуле V = (10.0 * L) / X<br>
 4)Вывод результата<br>
 5)Конец<br>
 <h2>Диаграма</h2>
-<img width="98" height="301" alt="image" src="" />
+<img width="98" height="301" alt="image" src="https://github.com/temk228/homework-lab2/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.png" />
 <h2>Реализация программы</h2>
 #include <stdio.h><br>
 #include <locale.h><br>
 int main()<br>
 {<br>
-    setlocale(LC_CTYPE, ".UTF-8");<br>
-    double x = 200.0;<br>
-    double l = 80.0;<br>
-    double v = (10.0 * l)/x;<br>
-    printf("исходные данные:\n");<br>
-    printf("время X: %.1f мс\n",x);<br>
-    printf("длина шага L: %.1f см\n\n", l);<br>
-    printf("минимальная скорость передвижения: %.2f м/с\n", v);<br>
-    return 0;<br>
+ㅤㅤsetlocale(LC_CTYPE, ".UTF-8");<br>
+ㅤㅤdouble x = 200.0;<br>
+ㅤㅤdouble l = 80.0;<br>
+ㅤㅤdouble v = (10.0 * l)/x;<br>
+ㅤㅤprintf("исходные данные:\n");<br>
+ㅤㅤprintf("время X: %.1f мс\n",x);<br>
+ㅤㅤprintf("длина шага L: %.1f см\n\n", l);<br>
+ㅤㅤprintf("минимальная скорость передвижения: %.2f м/с\n", v);<br>
+ㅤㅤreturn 0;<br>
 }<br>
 <h2>Результат работы программы</h2>
 исходные данные:<br>
