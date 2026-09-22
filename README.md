@@ -9,7 +9,7 @@
 4)Вывод результата<br>
 5)Конец<br>
 <h2>Диаграма</h2>
-
+<img width="98" height="301" alt="image" src="https://github.com/user-attachments/assets/e2c79a8a-d249-4794-9473-4581bcecc894" />
 <h2>Реализация программы</h2>
 #include <stdio.h><br>
 #include <locale.h><br>
